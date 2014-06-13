@@ -10,11 +10,11 @@ h1 {
 	width: 100%;
 	text-align: center;
 	margin: 0px;
-	color: lightgray;
-	background-color: darkblue;
+	color: lightgray; /* Color for text of header */
+	background-color: darkblue; /* Color for background of header */
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border-bottom: 15px solid #0000;
+	border-bottom: 15px solid #444; /* Color for bottom border of header */
 	position: fixed;
 	clear: both;
 }
@@ -23,13 +23,15 @@ body {
 	background-color: lightgray;
 	min-height: 100%;
 	height: 100%;
+	box-sizing: border-box;
 }
 
 .nav {
 	position: fixed;
 	top: 105px;
 	left: 0;
-	background-color: #0444;
+	background-color: #444; /* Color for background of nav */
+	margin-top: 0;
 	width: 16%;
 	height: 100%;
 	float: left;
@@ -56,7 +58,7 @@ ul {
 	background-color: #333;
 	font-size: 2em;
 	border-radius: 10px;
-	border-bottom: 4px solid #222;
+	border-bottom: 4px solid #222; /* Color for borders of nav items */
 	border-right: 4px solid #222;
 	box-sizing: border-box;
 	transition-duration: .2s;
@@ -68,9 +70,9 @@ ul {
 
 .main {	
 	float: right;
-	width: 84.5%;
+	width: 84%;
 	height: 100%;
-	background-color: floralwhite;
+	background-color: floralwhite; /* Color for background of main */
 	padding-top: 90px;
 }
 
@@ -80,6 +82,7 @@ ul {
 
 .gallery {
 	padding: 30px;
+	box-sizing: border-box;
 }
 
 .gallery li {
@@ -87,12 +90,14 @@ ul {
 }
 
 .gallery img {
-	width: 50px;
-	height: 50px;
+	width: 175px;
+	height: 175px;
+	border-radius: 175px;
+	border: 10px solid #000;
 }
 
 
-footer {
+footer { /* Footer needs to be centered */
 	font-size: .8em;
 	color: darkgray;
 	position: fixed;
