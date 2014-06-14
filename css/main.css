@@ -16,7 +16,9 @@ h1 {
 	padding-bottom: 20px;
 	border-bottom: 15px solid #444; /* Color for bottom border of header */
 	position: fixed;
+	display: block;
 	clear: both;
+	z-index: 1;
 }
 
 body {
@@ -44,8 +46,8 @@ ul {
 	display: table;
 	width: 100%;
 	padding: 0;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin: 0;
+/*	margin-bottom: 0;*/
 }
 
 .nav li {
@@ -73,7 +75,7 @@ ul {
 	width: 84%;
 	height: 100%;
 	background-color: floralwhite; /* Color for background of main */
-	padding-top: 90px;
+	clear: both;
 }
 
 .main p {
@@ -87,6 +89,8 @@ ul {
 
 .gallery li {
 	list-style-type: none;
+	display: inline-block;
+	margin: 30px;
 }
 
 .gallery img {
@@ -94,6 +98,29 @@ ul {
 	height: 175px;
 	border-radius: 175px;
 	border: 10px solid #000;
+	-webkit-duration: .1s;
+	-moz-duration: .1s;
+	-o-duration: .1s;
+	transition-duration: .1s;
+	transition-timing-function: ease-out;
+}
+
+.caption {
+	width: 175px;
+	clear: both;
+	position: relative;
+	display: block;
+	text-align: center;
+	padding-left: 10px;
+}
+
+.gallery img:hover {
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	-0-transform: rotate(5deg);
+	transform: rotate(5deg);
+	transform-origin: 0% 0%;
+	scale(2);
 }
 
 
