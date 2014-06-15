@@ -1,2 +1,169 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Signika', sans-serif;
+}
+
+/***********************
+ *
+ *	Header 
+ *
+ ***********************/
+
+header {
+	width: 100%;
+	background-color: #333;
+	color: white;
+	height: 80px;
+	margin: 0;
+	text-align: center;
+}
+
+#headerul {
+	list-style: none;
+	margin: 10px 30px;
+	padding: 0;
+}
+
+#headerul li {
+	display: inline-block;
+	text-decoration: none;
+	margin: 0 20px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#name {
+	font-size: 30px;
+}
+
+/***********************
+ *
+ *	Main
+ *
+ ***********************/
+
+.main {
+	margin: 0;
+	background-color: #DDD;
+	width: 100%;
+	display: block;
+	height: 100%;
+}
+
+p {
+	margin: 0;
+}
+
+/***********************
+ *
+ *	Main Home Page
+ *
+ ***********************/
+
+#profilepic {
+	max-width: 40%;
+	width: 40%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+#profilepic img {
+	margin: 10% 20%;
+	border-radius: 100px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#summary {
+	height: 100%;
+}
+
+#summary p {
+	padding: 10%;
+	text-align: center;
+
+}
+
+#bu {
+	color: #FF2400;
+	font-size: 20px;
+}
+
+
+/***********************
+ *
+ *	Gallery
+ *
+ ***********************/
+
+ .gallery {
+ 	list-style: none;
+ }
+
+ .gallery li {
+ 	display: inline-block;
+ 	width: 24%;
+ 	text-align: center;
+ 	margin: 10px 0;
+ }
+
+ .gallery img {
+ 	border-radius: 150px;
+ 	width: 150px;
+ 	height: 150px;
+ 	border: solid 5px #000;
+ 	transition: .1s;
+ }
+
+  .gallery img:hover {
+ 	border: solid 5px #ffd700;
+ }
+
+/***********************
+ *
+ *	Footer
+ *
+ ***********************/
+
+footer {
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: black;
+}
+
+footer ul {
+	display: inline-block;
+	width: 100%;
+	padding: 0;
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 0 50px;
+}
+
+footer img {
+	width: 30px;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+
+
+
 
 
