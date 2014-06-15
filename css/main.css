@@ -111,7 +111,7 @@ p {
  	margin: 10px 0;
  }
 
- .gallery img {
+ .gallery img, .gallery a img { /* Some buttons in gallery are links */
  	border-radius: 150px;
  	width: 150px;
  	height: 150px;
@@ -119,7 +119,7 @@ p {
  	transition: .1s;
  }
 
-  .gallery img:hover {
+  .gallery img:hover, .gallery a img:hover {
  	border: solid 5px #ffd700;
  }
 
@@ -159,6 +159,7 @@ footer p {
 	text-align: center;
 	font-size: 12px;
 }
+
 
 
 
