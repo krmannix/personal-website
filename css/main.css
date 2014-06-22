@@ -31,10 +31,23 @@ header {
 	margin: 0 20px;
 }
 
+#headerul li:hover .navhover {
+	background-color: white;
+}
+
 a {
 	text-decoration: none;
 	color: white;
 }
+
+.navhover {
+	width: 100%;
+	margin-top: 8px;
+	height: 5px;
+	transition: .15s;
+}
+
+
 
 #name {
 	font-size: 30px;
@@ -102,6 +115,7 @@ p {
 
  .gallery {
  	list-style: none;
+ 	padding: auto;
  }
 
  .gallery li {
@@ -116,7 +130,7 @@ p {
  	width: 150px;
  	height: 150px;
  	border: solid 5px #000;
- 	transition: .1s;
+ 	transition: .4s;
  }
 
   .gallery img:hover, .gallery a img:hover {
