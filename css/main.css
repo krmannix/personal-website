@@ -47,7 +47,12 @@ a {
 	transition: .15s;
 }
 
-
+ .selected {
+ 	width: 100%;
+	margin-top: 8px;
+	height: 5px;
+	background-color: white;
+ }
 
 #name {
 	font-size: 30px;
