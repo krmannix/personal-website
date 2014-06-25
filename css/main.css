@@ -192,6 +192,12 @@ p {
  	text-align: center;
  }
 
+ #gobutton {
+ 	border-radius: 10px;
+ 	background-color: green;
+ 	box-shadow: 10px 10px 5px #888888;
+ }
+
 /***********************
  *
  *	Footer
