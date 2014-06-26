@@ -193,10 +193,47 @@ p {
  }
 
  #gobutton {
- 	border-radius: 10px;
- 	background-color: green;
- 	box-shadow: 10px 10px 5px #888888;
- }
+	background-color:#44c767;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+	border-radius:11px;
+	border:1px solid #18ab29;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:22px;
+	font-weight:bold;
+	padding:10px 31px;
+	text-shadow:2px 2px 0px #2f6627;
+	clear: both;
+ 	float: left;
+ 	margin-left: 7.5%;
+ 	margin-top: 4%;
+ 	width:25%;
+ 	height: 12%;
+ 	font-size: 18px;
+ 	box-shadow:
+  	2px 2px 0 0 hsl(0, 0%, 60%),
+  	2px 2px 0 0 hsl(0, 0%, 60%);
+}
+#gobutton:hover {
+	background-color:#25b74c;
+}
+
+#cancel_x a {
+	position: absolute;
+	right: 26%;
+	top: 5%;
+	font-size: 150%;
+	transition: .2s;
+	color: #000;
+}
+
+#cancel_x a:hover {
+	color: rgb(204,172,0);
+}
+
+
+
 
 /***********************
  *

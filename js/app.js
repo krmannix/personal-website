@@ -2,7 +2,8 @@ $(document).ready(function() {
 
 	var $background = $('<div class="overlay"></div>');
 	var $box = $('<div class="infobox"></div>');
-	var $go_button = $('<button id="gobutton">Go!</button>');
+	var $go_button = $('<button id="gobutton">Visit Link</button>');
+	var $cancel = $('<p id="cancel_x"><a href="#">X</a></p>');
 
 	$(".gallery img").click(function(event) {
 		event.preventDefault();
@@ -16,19 +17,20 @@ $(document).ready(function() {
 		$background.append($box);
 
 		// Put everything in the box
-		console.log(title);
+		$box.append($cancel);
 		$box.append('<span id="boxtitle">' + title + '</span>');
 		$box.append('<img src="' + image + '" />');
 		$box.append('<p id="boxtext">' + alt + '</p>');
 		if (typeof link != 'undefined') {
 			$go_button.click(function(event) {
+				
 				window.location = link;
 			});
 			$box.append($go_button);
 		}
 
 		$background.fadeIn("fast", function() {
-			$(".overlay").click(function() {
+			$cancel.click(function() {
 				$background.fadeOut("fast", function() {
 					$box.empty();
 					$(".overlay").remove();
