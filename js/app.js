@@ -5,6 +5,8 @@ $(document).ready(function() {
 	var $go_button = $('<button id="gobutton">Visit Link</button>');
 	var $cancel = $('<p id="cancel_x"><a href="#">X</a></p>');
 
+	//console.log($("gallery").children("li"));
+
 	$(".gallery img").click(function(event) {
 		event.preventDefault();
 		var link = $(this).parent().attr("href"); // Get "go link"

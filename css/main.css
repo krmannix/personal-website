@@ -2,6 +2,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	font-family: 'Signika', sans-serif;
+	background-color: #DDD;
 }
 
 /***********************
@@ -12,7 +13,7 @@ html, body {
 
 header {
 	width: 100%;
-	background-color: #333;
+	background-color: black;
 	color: white;
 	height: 80px;
 	margin: 0;
@@ -163,7 +164,7 @@ p {
  	border-radius: 15px;
  	width: 50%;
  	height: 70%;
- 	margin: 30px auto auto auto;
+ 	margin: 30px auto 20px auto;
  }
 
  .infobox img {
@@ -204,7 +205,8 @@ p {
 	font-weight:bold;
 	padding:10px 31px;
 	text-shadow:2px 2px 0px #2f6627;
-	clear: both;
+/*	clear: both; */
+	display: inline-block;
  	float: left;
  	margin-left: 7.5%;
  	margin-top: 4%;
