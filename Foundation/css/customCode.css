@@ -1,0 +1,120 @@
+body {
+	margin-top: 40px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	margin-bottom: 1.5em;
+	background-color: #DDD;
+}
+
+.row {
+	background-color: #DDD;
+	margin-bottom: 15px;
+}
+
+.row-last {
+	margin-bottom: 80px;
+}
+
+/***********************
+ *
+ *	Nav
+ *
+ ***********************/
+
+.active {
+	color: red !important;
+}
+
+.active-dropdown {
+	background-color: #555555 !important;
+}
+
+/***********************
+ *
+ *	Gallery
+ *
+ ***********************/
+
+.img-circle {
+	border-radius: 50%;
+ 	border: solid 5px #000;
+ 	transition: .4s;
+ 	max-width: 100%;
+ 	max-height: 100%;
+ 	width: 100%;
+ 	height: 100%;
+}
+
+.img-circle:hover {
+	border: solid 5px #ffd700;
+}
+
+p {
+	font-size: 13px;
+}
+
+.lead { /* Very similar to h2 */
+	font-size: 1.3875rem;
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  	color: #666;
+  	line-height: 25px;
+}
+
+/***********************
+ *
+ *	Footer
+ *
+ ***********************/
+
+.footer-bar {
+	bottom: 0;
+	position: fixed;
+	margin-bottom: 0;
+	background-color: #333333;
+	max-height: 70px;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+.footer-bar img {
+	padding: 0;
+	max-width: 30px;
+	max-height: 30px;
+	width: 30px;
+	height: 30px;
+	display: inline;
+	margin: 0 50px;
+}
+
+.name {
+	color: white;
+	padding: 0;
+	display: block;
+}
+
+/***********************
+ *
+ *	Main Home Page
+ *
+ ***********************/
+
+.prof-pic {
+	border-radius: 55px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.text-danger {
+	color: rgb(200, 0, 0);
+}
+
+.splash-text {
+	margin-top: 50px;
+	margin-bottom: auto;
+	font-size: 20px;
+}
+
+.filler {
+	color: #DDD;
+	min-height: 30px;
+}

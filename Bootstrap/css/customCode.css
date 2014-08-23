@@ -1,0 +1,109 @@
+body {
+	padding-top: 70px;
+	margin-bottom: 70px;
+	background-color: #DDD;
+}
+
+/***********************
+ *
+ *	Nav
+ *
+ ***********************/
+
+ .active-tab {
+	color: white !important;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.active-dropdown {
+	color: white;
+	background-color: #f5f5f5;
+}
+
+ /***********************
+ *
+ *	Gallery
+ *
+ ***********************/
+
+ .img-circle, a > img {
+	border-radius: 50%;
+ 	border: solid 5px #000;
+ 	transition: .4s;
+ 	max-width: 100%;
+ 	max-height: 100%;
+ 	width: 100%;
+ 	height: 100%;
+}
+
+.img-circle:hover, a > img {
+	border: solid 5px #ffd700;
+}
+
+a > img {
+	border: none;
+}
+
+.gallery > .row > p {
+	vertical-align: middle;
+}
+
+.section-gray {
+	background-color: blue;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+ /***********************
+ *
+ *	Footer
+ *
+ ***********************/
+
+ .footer-bar {
+	background-color: black;
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	text-align: center;
+}
+
+.footer-bar img {
+	max-width: 30px;
+	max-height: 30px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin: 0 50px;
+}
+
+.footer-text {
+	display: block;
+	color: white;
+}
+
+ /***********************
+ *
+ *	Main Home Page
+ *
+ ***********************/
+
+.jumbotron {
+	background-color: #DDD;
+}
+
+.prof-pic {
+	border-radius: 55px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
